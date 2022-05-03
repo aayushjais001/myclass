@@ -1,0 +1,18 @@
+my_variable='This is a string variable!';
+a=2**4;
+print(a);
+s1="This"
+s2="course"
+s3=' '.join([s1,s2])
+s4='{} {}'.format(s1,s2)
+s5=s1+' '+s2
+print(s3)
+print(s4)
+print(s5)
+a=2
+b=5
+c=a+b
+d=a*b
+e=a%b
+f=a**b
+print(c, d, e, f, sep='\n')
