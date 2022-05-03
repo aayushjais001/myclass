@@ -1,9 +1,19 @@
-value1=input("Enter value1");
-value2=input("Enter value2");
-a=int(value1);
-b=int(value1);
-c=a+b
-d=a*b
-e=a%b
-f=a**b
+value1, value2, value3 = input("Enter three values: ").split()
+
+value1=int(value1);
+value2=int(value2);
+value3=int(value3);
+c=value1+value2
+d=value1*value2
+e=value1%value2
+f=value1**value2
 print(c, d, e, f, sep='\n')
+
+c2=value1+value2+value3
+d2=value1*value2*value3
+e2=value1%value3
+f2=value1**value3
+print(c2, d2, e2, f2, sep='\n')
+
+
+
