@@ -14,6 +14,3 @@ d2=value1*value2*value3
 e2=value1%value3
 f2=value1**value3
 print(c2, d2, e2, f2, sep='\n')
-
-
-
