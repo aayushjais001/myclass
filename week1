@@ -1,20 +1,16 @@
-my_variable='This is a string variable!';
-a=2**4;
-print(a);
-s1="This"
-s2="course"
-s3=' '.join([s1,s2])
-s4='{} {}'.format(s1,s2)
-s5=s1+' '+s2
-print(s3)
-print(s4)
-print(s5)
-a=input("Enter value1");
-b=input("Enter value2");
-a=int(a);
-b=int(b);
-c=a+b
-d=a*b
-e=a%b
-f=a**b
+value1, value2, value3 = input("Enter three values: ").split()
+
+value1=int(value1);
+value2=int(value2);
+value3=int(value3);
+c=value1+value2
+d=value1*value2
+e=value1%value2
+f=value1**value2
 print(c, d, e, f, sep='\n')
+
+c2=value1+value2+value3
+d2=value1*value2*value3
+e2=value1%value3
+f2=value1**value3
+print(c2, d2, e2, f2, sep='\n')
